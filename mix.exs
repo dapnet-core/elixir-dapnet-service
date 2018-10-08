@@ -24,8 +24,6 @@ defmodule DapnetService.MixProject do
     [
       {:plug, "~> 1.0"},
       {:httpoison, "~> 1.1.1"},
-      {:comeonin, "~> 4.0"},
-      {:bcrypt_elixir, "~> 1.0"},
       {:couchdb, github: "7h0ma5/elixir-couchdb"},
     ]
   end
